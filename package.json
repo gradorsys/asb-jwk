@@ -1,6 +1,6 @@
 {
   "name": "asb-jwk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "library for json web keys (JWKs)",
   "main": "src/index.js",
   "scripts": {
