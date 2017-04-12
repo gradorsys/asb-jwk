@@ -1,0 +1,22 @@
+{
+  "name": "asb-jwk",
+  "version": "0.0.1",
+  "description": "library for json web keys (JWKs)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradorsys/asb-jwk.git"
+  },
+  "keywords": [
+    "jwk"
+  ],
+  "author": "Gunnar Radzom <gunnar.radzom@adorsys.de> (http://adorsys.de/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradorsys/asb-jwk/issues"
+  },
+  "homepage": "https://github.com/gradorsys/asb-jwk#readme"
+}
