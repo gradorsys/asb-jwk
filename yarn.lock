@@ -1561,9 +1561,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-"eslint-config-adorsys@git+ssh://git@git.adorsys.de:wow/eslint-config.git":
+"eslint-config-adorsys@git://github.com/adorsys/eslint-config-adorsys.git":
   version "1.0.0"
-  resolved "git+ssh://git@git.adorsys.de/wow/eslint-config.git#78b1bdefd1732e982a2288e4268ce1c33ee6230e"
+  resolved "git://github.com/adorsys/eslint-config-adorsys.git#767397141d2457d0714e5ce42337ce77fb4b8bb5"
   dependencies:
     eslint "3.19.0"
     eslint-config-airbnb-base "11.1.3"

@@ -47,7 +47,7 @@
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
     "eslint": "3.19.0",
-    "eslint-config-adorsys": "git+ssh://git@git.adorsys.de:wow/eslint-config.git",
+    "eslint-config-adorsys": "git://github.com/adorsys/eslint-config-adorsys.git",
     "ghooks": "2.0.0",
     "istanbul": "0.4.5",
     "json-loader": "0.5.4",
