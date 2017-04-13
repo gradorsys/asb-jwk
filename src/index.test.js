@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var asdJwk = require('./index');
+var asdJwk = require('../dist/index');
 
 describe('asdJwk', function () {
 
