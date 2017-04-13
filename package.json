@@ -1,14 +1,16 @@
 {
   "name": "asb-jwk",
-  "version": "0.1.0-beta.0",
+  "version": "0.0.0-semantically-released",
   "description": "library for json web keys (JWKs)",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gradorsys/asb-jwk.git"
+    "url": "https://github.com/gradorsys/asb-jwk.git"
   },
   "keywords": [
     "jwk"
@@ -18,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/gradorsys/asb-jwk/issues"
   },
-  "homepage": "https://github.com/gradorsys/asb-jwk#readme"
+  "homepage": "https://github.com/gradorsys/asb-jwk#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "mocha": "3.2.0",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
