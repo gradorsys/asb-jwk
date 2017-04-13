@@ -1,7 +1,11 @@
 module.exports = {
-    encrypt: encrypt
+    encrypt,
+    generateKey
 };
 
 function encrypt(secret, jwk) {
     return 'not implemented';
+}
+function generateKey() {
+    return 'new key';
 }
