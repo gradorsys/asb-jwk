@@ -10,11 +10,11 @@ describe('adder', () => {
   });
 });
 
-// describe('greeter', () => {
-//   it('should greet the specified name', () => {
-//     const name = 'goo';
-//     const result = greeter('goo');
-//     expect(result).to.be.a('string');
-//     expect(result).to.equal(`Hallo ${name}`);
-//   });
-// })
+describe('greeter', () => {
+  it('should greet the specified name', () => {
+    const name = 'goo';
+    const result = greeter('goo');
+    expect(result).to.be.a('string');
+    expect(result).to.equal(`Hallo ${name}`);
+  });
+});
