@@ -47,3 +47,5 @@ module.exports = function myLib() { // Jose, JoseJWE }) {
 // const { Jose, JoseJWE } = require('jose-jwe-jws');
 // import { Jose, JoseJWE } from 'jose-jwe-jws';
 // import SecretCredentialEncryptor from './secretCredentialEncrypter';
+module.exports.help = 'help';
+module.exports.helper = () => ('call help');
