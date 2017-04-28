@@ -2,15 +2,15 @@
 var expect = require('chai').expect;
 var td = require('testdouble')
 
-const WebCrypto = require('node-webcrypto-ossl');
-const webcrypto = new WebCrypto();
-global.crypto = webcrypto;
+// const WebCrypto = require('node-webcrypto-ossl');
+// const webcrypto = new WebCrypto();
+// global.crypto = webcrypto;
 
-const { Jose, JoseJWE } = require('jose-jwe-jws');
+// const { Jose, JoseJWE } = require('jose-jwe-jws');
 
 const myLib = require('../dist/index');
-console.log(myLib);
-const { adder } = myLib({Jose, JoseJWE});
+// const { adder } = myLib({Jose, JoseJWE});
+const { adder } = myLib();
 // const { jwk2cryptoKey, transformData, adder } = myLib({Jose, JoseJWE});
 
 const jwk = {
