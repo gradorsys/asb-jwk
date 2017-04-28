@@ -25,14 +25,14 @@ module.exports = function myLib() { // Jose, JoseJWE }) {
   //   ]
   // });
 
-  // function greeter(name) {
-  //   return `Hallo ${name}`;
-  // }
+  function greeter(name) {
+    return `Hallo ${name}`;
+  }
 
   return {
     // jwk2cryptoKey,
     // transformData,
-    // greeter,
+    greeter,
     adder(x, y) { return x + y; },
   };
 };
