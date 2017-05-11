@@ -1,12 +1,13 @@
-function greeter(name) {
-  return `Hallo ${name}`;
-}
+import HmacKeyGenerator from './hmac-key-generator';
+import NonceGenerator from './nonce-generator';
+import SecretCredentialEncryptor from './secret-credential-encryptor';
+import TimestampGenerator from './timestamp-generator';
 
-function adder(x, y) {
-  return x + y;
-}
-
-module.exports = {
-  greeter,
-  adder,
-};
+module.exports = (function myLib() {
+  return {
+    HmacKeyGenerator,
+    NonceGenerator,
+    SecretCredentialEncryptor,
+    TimestampGenerator,
+  };
+}());
