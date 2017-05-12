@@ -49,7 +49,7 @@
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
     "eslint": "^3.19.0",
-    "eslint-config-adorsys": "git://github.com/adorsys/eslint-config-adorsys.git",
+    "eslint-config-adorsys": "1.0.0",
     "ghooks": "2.0.0",
     "json-loader": "0.5.4",
     "npm-run-all": "4.0.2",

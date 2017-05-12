@@ -1603,9 +1603,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-"eslint-config-adorsys@git://github.com/adorsys/eslint-config-adorsys.git":
+eslint-config-adorsys@1.0.0:
   version "1.0.0"
-  resolved "git://github.com/adorsys/eslint-config-adorsys.git#88a1b1942dfabbe7b58af7173dce1977a538d592"
+  resolved "https://registry.yarnpkg.com/eslint-config-adorsys/-/eslint-config-adorsys-1.0.0.tgz#d4ff7b42d889a81abea9125fa32f2a241a3461b7"
   dependencies:
     eslint "3.19.0"
     eslint-config-airbnb-base "11.1.3"
