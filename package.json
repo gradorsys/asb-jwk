@@ -6,7 +6,7 @@
   "scripts": {
     "tap": "npm run build:main && tap -Rspec test/*.test.js --cov --coverage-report=text",
     "commit": "git-cz",
-    "check-coverage": "tap test/*.test.js --coverage --100",
+    "check-coverage": "tap test/*.test.js --coverage",
     "report-coverage": "tap --coverage-report=lcov && codecov",
     "lint": "eslint src/*.js test/*.js",
     "test": "npm run lint && npm run build:main && tap -Rspec test/*.test.js",
