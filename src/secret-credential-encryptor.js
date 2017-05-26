@@ -7,10 +7,6 @@ function str2ab(str) {
     .split('')
     .map(s => s.charCodeAt(0))
     .reduce((prev, curr, index) => { const b = prev; b[index] = curr; return b; }, bufView);
-
-  // for (let i = 0; i < str.length; ++i) {
-  //   bufView[i] = str.charCodeAt(i);
-  // }
   return buf;
 }
 
